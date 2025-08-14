@@ -1,0 +1,61 @@
+﻿|-- .vite/
+|   |-- deps/
+|   |   |-- package.json
+|   |   |-- _metadata.json
+|-- backend/
+|   |-- node_modules/
+|   |-- routes/
+|   |   |-- assets.js
+|   |-- .env
+|   |-- db.js
+|   |-- hash-users.js
+|   |-- index.js
+|   |-- package-lock.json
+|   |-- package.json
+|   |-- structure.txt
+|   |-- tsconfig.json
+|-- client/
+|   |-- public/
+|   |   |--templates/
+|   |   |-- _redirects
+|   |-- src/
+|   |   |-- components/
+|   |   |   |-- Layout/
+|   |   |   |   |-- DashboardLayout.tsx
+|   |   |   |   |-- Header.tsx
+|   |   |   |   |-- Sidebar.tsx
+|   |   |-- context/
+|   |   |   |-- AuthContext.tsx
+|   |   |   |-- ThemeContext.tsx
+|   |   |-- data/
+|   |   |   |-- mockData.ts
+|   |   |-- pages/
+|   |   |   |-- AssetManagement.tsx
+|   |   |   |-- CallLogging.tsx
+|   |   |   |-- ComplaintManagement.tsx
+|   |   |   |-- Dashboard.tsx
+|   |   |   |-- LoginPage.tsx
+|   |   |   |-- PMReportUpload.tsx
+|   |   |   |-- Reports.tsx
+|   |   |-- types/
+|   |   |   |-- index.ts
+|   |   |-- App.tsx
+|   |   |-- index.css
+|   |   |-- IOCL LOGO.jpg
+|   |   |-- iocl logo.png
+|   |   |-- IOCL LOGOOO.avif
+|   |   |-- main.js
+|   |   |-- main.tsx
+|   |   |-- vite-env.d.ts
+|   |-- .gitignore
+|   |-- eslint.config.js
+|   |-- index.html
+|   |-- package-lock.json
+|   |-- package.json
+|   |-- postcss.config.js
+|   |-- tailwind.config.js
+|   |-- tsconfig.app.json
+|   |-- tsconfig.json
+|   |-- tsconfig.node.json
+|   |-- vite.config.ts
+|-- structure.txt
