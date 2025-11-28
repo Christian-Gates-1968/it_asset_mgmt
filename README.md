@@ -71,14 +71,15 @@ The application provides a centralized dashboard for IT administrators and engin
 │   └── vite.config.ts      # Vite configuration
 └── ...
 ```
+
 🚀 Getting Started
 
 Prerequisites
+  
+   Node.js (v16 or higher)
 
-    Node.js (v16 or higher)
-
-    MySQL Server installed and running
-
+   MySQL Server installed and running
+ 
 1. Database Setup
 
 Create a MySQL database and import the necessary schema (not included in repo, ensure tables for users, assets, and complaints exist).
@@ -86,64 +87,76 @@ Create a MySQL database and import the necessary schema (not included in repo, e
 2. Backend Setup
 
 Navigate to the backend folder and install dependencies:
-Bash
 
+Bash
+```
 cd backend
 npm install
-
+```
 Create a .env file in the backend directory:
-Code snippet
 
+Code snippet
+```
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=your_password
 DB_NAME=iocl_db
 PORT=8800
+```
 
 Start the server:
-Bash
 
+Bash
+```
 npm start
 # or
 node index.js
+```
 
 3. Client Setup
 
 Navigate to the client folder and install dependencies:
-Bash
 
+Bash
+```
 cd ../client
 npm install
+```
 
 Start the development server:
-Bash
 
+Bash
+```
 npm run dev
+```
 
 Open your browser and navigate to http://localhost:5173.
 
 📸 Screenshots
 
-Login Page:
+**Login Page**
+
 <img src="./screenshots/login.png" alt="Login Page" width="100%" />
 
-Dashboard Overview:
-<img src="./screenshots/dashboard.png" alt="Login Page" width="100%" />
+**Dashboard Overview**
 
-Asset Management Page:
-<img src="./screenshots/assets.png" alt="Login Page" width="100%" />
+<img src="./screenshots/dashboard.png" alt="Dashboard" width="100%" />
+
+**Asset Management Page**
+
+<img src="./screenshots/assets.png" alt="Asset Management" width="100%" />
 
 🤝 Contributing
 
-    Fork the repository.
+   Fork the repository.
 
-    Create a new branch (git checkout -b feature/NewFeature).
+   Create a new branch (git checkout -b feature/NewFeature).
 
-    Commit your changes (git commit -m 'Add some NewFeature').
+   Commit your changes (git commit -m 'Add some NewFeature').
 
-    Push to the branch (git push origin feature/NewFeature).
+   Push to the branch (git push origin feature/NewFeature).
 
-    Open a Pull Request.
+   Open a Pull Request.
 
 📄 License
 
