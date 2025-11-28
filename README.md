@@ -70,7 +70,7 @@ The application provides a centralized dashboard for IT administrators and engin
 │   │   └── types/          # TypeScript interfaces
 │   └── vite.config.ts      # Vite configuration
 └── ...
-
+```
 🚀 Getting Started
 
 Prerequisites
