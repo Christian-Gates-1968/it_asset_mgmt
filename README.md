@@ -125,10 +125,13 @@ Open your browser and navigate to http://localhost:5173.
 📸 Screenshots
 
 Login Page:
+<img src="./screenshots/login.png" alt="Login Page" width="100%" />
 
 Dashboard Overview:
+<img src="./screenshots/dashboard.png" alt="Login Page" width="100%" />
 
 Asset Management Page:
+<img src="./screenshots/assets.png" alt="Login Page" width="100%" />
 
 🤝 Contributing
 
